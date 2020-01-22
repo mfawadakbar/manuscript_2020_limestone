@@ -14,7 +14,7 @@ The repository contains 6 files each containing codes to generate results of the
 
 ## Image Filtering
 Some of the codes doesn't have the filtering code. These codes have imported filtered images using image IDs. The images were filtered using the following code snippet.
-`
+```
 //Select and Filter Sentinel 2 L1C Image
 var sentImage = ee.Image(sentinel
 .filterDate("2015-01-01", "2019-04-29")
@@ -38,7 +38,8 @@ var ASTERImage = ee.Image(aster
 .filterBounds(region)
 .first());
 print("ASTER Scene",ASTERImage);
-`
+
+```
 
 ### Limestone Paper (PCA Submission Code).js
 This file contains code to generate individual PCs and FCCs of PCs for all three datasets. You may need to uncomment (remove '//') `//Map.addLayer(pcImage.select([band]), {min: -2, max: 2}, band);` to print the individual PC images as layers in the GEE platform. To run this code automatically you will need to click on the link given below.
