@@ -63,7 +63,7 @@ WekaXmeans algorithm is used to select suitable number of clusters within the sp
 GEE Link: https://code.earthengine.google.com/3c253702db2e1a5d076a333b83d07d62
 
 #### Sentinel_Classification.js
-CART, Random Forest, Naive Bayes, SVM classificaiton results for sentinel - 2 MSI L2A satellite Image. 
+CART, Random Forest, Naive Bayes, SVM classificaiton results for Sentinel - 2 MSI L2A satellite Image. 
 
 GEE Link: https://code.earthengine.google.com/08146ecd555c5c854f215b831cb71083
 
