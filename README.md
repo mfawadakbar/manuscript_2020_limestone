@@ -55,16 +55,20 @@ GEE Link: https://code.earthengine.google.com/a51bd26a8d68318e17e70134aebacdc8
 
 ### Limestone Paper (Clustering Submission Code).js
 WekaXmeans algorithm is used to select suitable number of clusters within the specified clusters range of 2 - 30 clusters for each satellite image. Clustering results are printed as seperate layers for each data source.
+
 GEE Link: https://code.earthengine.google.com/3c253702db2e1a5d076a333b83d07d62
 
 ### Limestone Paper (Classification Submission Code) - Sentinel.js
+CART, Random Forest, Naive Bayes, SVM classificaiton results for sentinel - 2 MSI L2A satellite Image.
 
 GEE Link: https://code.earthengine.google.com/08146ecd555c5c854f215b831cb71083
 
 ### Limestone Paper (Classification Submission Code) - Landsat.js
+CART, Random Forest, Naive Bayes, SVM classificaiton results for Landsat - 8 OLI raw satellite Image.
 
 GEE Link: https://code.earthengine.google.com/bba5bd99ab5b37810e05f6c2c1068d37
 
 ### Limestone Paper (Classification Submission Code) - ASTER.js
+CART, Random Forest, Naive Bayes, SVM classificaiton results for ASTER L1T satellite Image.
 
 GEE LInk: https://code.earthengine.google.com/3fcae076c97674cab991f143e1ae032e
