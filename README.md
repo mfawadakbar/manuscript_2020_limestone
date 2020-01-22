@@ -6,11 +6,11 @@ The code can be executed online by opening the link (given above) in any browser
 
 You will need a Google Account to run any code in this repository.
 
-## Contact details
+## Contact Details
 The authors of the manuscript are reserarchers at Intelligent Information Processing Lab, National Center of Artificial Intelligence University of Engineering and Technology Peshawar, Khyber Pakhtunkhwa, Pakistan;
 * Emails:  mfawadakbar@uetpeshawar.edu.pk; khan.m@uetpeshswar.edu.pk; shahabuddin@uetpeshawar.edu.pk
 
-## Image Region and Scale
+## Image Scale and Region
 Images in the manuscript were taken at 500m scale as shown on Google Earth Engine Platform. The codes will print the results at 1km scale where the region of interest will be marked by a black rectangle.
 
 ## Code Description
@@ -45,7 +45,7 @@ var ASTERImage = ee.Image(aster
 print("ASTER Scene",ASTERImage);
 ```
 ### Code Files
-
+PCA, DS and Clustering were used to select training and testing patches. The selected representative samples from each class were split into Train and Test data in a 70-30 ratios. Four classifiers (CART, RF, NB, SVM) applied on three data sources (Sentinel - 2, ASTER L1T, Landsat 8).
 
 #### Limestone Paper (PCA Submission Code).js
 This file contains code to generate individual PCs and FCCs of PCs for all three datasets. You may need to uncomment (remove '//') `//Map.addLayer(pcImage.select([band]), {min: -2, max: 2}, band);` to print the individual PC images as layers in the GEE platform. To run this code automatically you will need to click on the link given below.
@@ -63,7 +63,7 @@ WekaXmeans algorithm is used to select suitable number of clusters within the sp
 GEE Link: https://code.earthengine.google.com/3c253702db2e1a5d076a333b83d07d62
 
 #### Limestone Paper (Classification Submission Code) - Sentinel.js
-CART, Random Forest, Naive Bayes, SVM classificaiton results for sentinel - 2 MSI L2A satellite Image. Training and testing 
+CART, Random Forest, Naive Bayes, SVM classificaiton results for sentinel - 2 MSI L2A satellite Image. 
 
 GEE Link: https://code.earthengine.google.com/08146ecd555c5c854f215b831cb71083
 
