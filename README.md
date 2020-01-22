@@ -47,32 +47,32 @@ print("ASTER Scene",ASTERImage);
 ### Code Files
 PCA, DS and Clustering were used to select training and testing patches. The selected representative samples from each class were split into Train and Test data in a 70-30 ratios. Four classifiers (CART, RF, NB, SVM) applied on three data sources (Sentinel - 2, ASTER L1T, Landsat 8).
 
-#### Limestone Paper (PCA Submission Code).js
+#### PCA_Limestone_Mapping.js
 This file contains code to generate individual PCs and FCCs of PCs for all three datasets. You may need to uncomment (remove '//') `//Map.addLayer(pcImage.select([band]), {min: -2, max: 2}, band);` to print the individual PC images as layers in the GEE platform. To run this code automatically you will need to click on the link given below.
 
 GEE Link: https://code.earthengine.google.com/1416f372ccbd81aad9d0aa5e38ca8843
 
-#### Limestone Paper (Decorrelation Stretching Submission Code).js
+#### DS_Limestone_Mapping.js
 This file contains code to stretch bands of for all three datasets using Decorrelation Stretching algorithm. Each data source is first filtered to obtain the best image within the specified date range. To run this code automatically you will need to click on the link given below.
 
 GEE Link: https://code.earthengine.google.com/a51bd26a8d68318e17e70134aebacdc8
 
-#### Limestone Paper (Clustering Submission Code).js
+#### Clustering_Limestone_Mapping.js
 WekaXmeans algorithm is used to select suitable number of clusters within the specified clusters range of 2 - 30 clusters for each satellite image. Clustering results are printed as seperate layers for each data source.
 
 GEE Link: https://code.earthengine.google.com/3c253702db2e1a5d076a333b83d07d62
 
-#### Limestone Paper (Classification Submission Code) - Sentinel.js
+#### Sentinel_Classification.js
 CART, Random Forest, Naive Bayes, SVM classificaiton results for sentinel - 2 MSI L2A satellite Image. 
 
 GEE Link: https://code.earthengine.google.com/08146ecd555c5c854f215b831cb71083
 
-#### Limestone Paper (Classification Submission Code) - Landsat.js
+#### Landsat_Classification.js
 CART, Random Forest, Naive Bayes, SVM classificaiton results for Landsat - 8 OLI raw satellite Image.
 
 GEE Link: https://code.earthengine.google.com/bba5bd99ab5b37810e05f6c2c1068d37
 
-#### Limestone Paper (Classification Submission Code) - ASTER.js
+#### ASTER_Classification.js
 CART, Random Forest, Naive Bayes, SVM classificaiton results for ASTER L1T satellite Image.
 
 GEE LInk: https://code.earthengine.google.com/3fcae076c97674cab991f143e1ae032e
