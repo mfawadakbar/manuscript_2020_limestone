@@ -75,7 +75,7 @@ GEE Link (Mask Generation - With Data Annotation Classification): https://code.e
 GEE Link (Without Data Annotation Classification): https://code.earthengine.google.com/b450d39ebb667015d7493472f219da07?accept_repo=users%2Fmfawadakbar%2FLimestoneManuscriptSubmissionCode 
 
 GEE Link (Hyperparameter Tuning, Formations Classification): https://code.earthengine.google.com/?accept_repo=users/mfawadakbar/LimestoneManuscriptSubmissionCode
-Github Clone (Hyperparameter Tuning, Formations Classification): git clone https://earthengine.googlesource.com/users/mfawadakbar/LimestoneManuscriptSubmissionCode
+Github Clone (Hyperparameter Tuning, Formations Classification): '''git clone https://earthengine.googlesource.com/users/mfawadakbar/LimestoneManuscriptSubmissionCode'''
 
 #### ASTER_Classification.js
 CART, Random Forest, Naive Bayes, SVM classificaiton results for ASTER L1T satellite Image.
