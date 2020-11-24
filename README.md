@@ -67,12 +67,13 @@ CART, Random Forest, Naive Bayes, SVM classificaiton results for Sentinel - 2 MS
 
 GEE Link: https://code.earthengine.google.com/08146ecd555c5c854f215b831cb71083
 
-#### Landsat_Classification.js
-CART, Random Forest, Naive Bayes, SVM classificaiton results for Landsat - 8 OLI raw satellite Image.
+#### Landsat_Classification.js (Including Hyperparameter Tuning, Mask Generation and Formation Classification Code)
+CART, Random Forest, Naive Bayes, SVM classificaiton results for Landsat - 8 OLI satellite Image. Furthermore, it includes, hyperparameter tuning codes for SVM (Linear, Polynomial, RBF and Sigmoid kernals), CART, RF and NB. Mask generation and Export to asset code and Oolitic and Fossiliferous formations classification code.
 
-GEE Link: https://code.earthengine.google.com/bba5bd99ab5b37810e05f6c2c1068d37
+GEE Link: https://code.earthengine.google.com/?accept_repo=users/mfawadakbar/LimestoneManuscriptSubmissionCode
+Github Clone: git clone https://earthengine.googlesource.com/users/mfawadakbar/LimestoneManuscriptSubmissionCode
 
 #### ASTER_Classification.js
 CART, Random Forest, Naive Bayes, SVM classificaiton results for ASTER L1T satellite Image.
 
-GEE LInk: https://code.earthengine.google.com/3fcae076c97674cab991f143e1ae032e
+GEE Link: https://code.earthengine.google.com/3fcae076c97674cab991f143e1ae032e
