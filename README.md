@@ -1,5 +1,5 @@
-# IJRS_2020_Limestone
-This repository contains code used to generate all the results in the manuscript titled, "Applications of Machine learning Algorithms for Limestone Mapping using ASTER – L1T, Sentinel – 2 MSI and Landsat – 8 OLI Data".
+# Limestone_Mapping_Manuscript_Code
+This repository contains code used to generate all the results in the manuscript titled, "Mapping of limestone bearing formations in Hazara, Pakistan: Application of Machine Learning Algorithms on Multispectral Remote Sensing Data using Google Cloud Architecture".
 
 ## Requirements
 The code can be executed online by opening the link (given above) in any browser (Chrome Recommended). No specific system requirements needed. The code is executed on Google Earth Engine cloud computing platform. In our study, this code was developed and executed on a system with the following specifications, Intel® Core™ i5-8400 CPU @ (2.8 GHz and 2.81 GHz) and 8 GB RAM.
@@ -69,6 +69,10 @@ GEE Link: https://code.earthengine.google.com/08146ecd555c5c854f215b831cb71083
 
 #### Landsat_Classification.js (Including Hyperparameter Tuning, Mask Generation and Formation Classification Code)
 CART, Random Forest, Naive Bayes, SVM classificaiton results for Landsat - 8 OLI satellite Image. Furthermore, it includes, hyperparameter tuning codes for SVM (Linear, Polynomial, RBF and Sigmoid kernals), CART, RF and NB. Mask generation and Export to asset code and Oolitic and Fossiliferous formations classification code.
+
+GEE Link (Mask Generation - With Data Annotation Classification): https://code.earthengine.google.com/7461e1c09832d5191c35fd78f58cbc66?accept_repo=users%2Fmfawadakbar%2FLimestoneManuscriptSubmissionCode 
+
+GEE Link (Without Data Annotation Classification): https://code.earthengine.google.com/b450d39ebb667015d7493472f219da07?accept_repo=users%2Fmfawadakbar%2FLimestoneManuscriptSubmissionCode 
 
 GEE Link: https://code.earthengine.google.com/?accept_repo=users/mfawadakbar/LimestoneManuscriptSubmissionCode
 Github Clone: git clone https://earthengine.googlesource.com/users/mfawadakbar/LimestoneManuscriptSubmissionCode
